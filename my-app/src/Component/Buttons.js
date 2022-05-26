@@ -2,6 +2,11 @@ import React, { Component } from "react";
 
 export default class Buttons extends Component {
   render() {
-    return <div>Buttons</div>;
+    return (
+      <div>
+        <button> - </button>
+        <button> + </button>
+      </div>
+    );
   }
 }
