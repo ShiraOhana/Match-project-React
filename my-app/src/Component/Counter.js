@@ -5,7 +5,7 @@ export default class Counter extends Component {
     return (
       <div>
         <span> {this.props.likeCounter} </span>
-        <span> 0 </span>
+        <span> {this.props.dislikeCounter} </span>
       </div>
     );
   }
