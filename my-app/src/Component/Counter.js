@@ -4,8 +4,8 @@ export default class Counter extends Component {
   render() {
     return (
       <div>
+        <span> {this.props.likeCounter} </span>
         <span> 0 </span>
-        <span> 1 </span>
       </div>
     );
   }
