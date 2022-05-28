@@ -1,3 +1,12 @@
+# Weekend assignment - Appleseeds Bootcamp
+
+## Match game - Do you like Europe?
+
+### Technologies used:
+
+- React classes components with self-built data
+  ![Website screenshot](./src/Screenshot.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
