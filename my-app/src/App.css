@@ -38,6 +38,10 @@ button:hover {
   transition: all 400ms ease-in-out;
   cursor: pointer;
 }
+.endOfQuestions {
+  padding-top: 300px;
+  font-weight: bold;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

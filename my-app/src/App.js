@@ -35,9 +35,9 @@ class App extends Component {
       <div className="App">
         {this.state.totalCounter > 4 ? (
           this.state.likeCounter > this.state.dislikeCounter ? (
-            <h1>You Like Europe</h1>
+            <h1 className="endOfQuestions">You Like Europe</h1>
           ) : (
-            <h1>You should visit other places :)</h1>
+            <h1 className="endOfQuestions">You should visit other places :)</h1>
           )
         ) : (
           <>
