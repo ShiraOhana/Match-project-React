@@ -10,10 +10,9 @@ export default class Main extends Component {
   render() {
     return (
       <div>
-        <img src="#"></img>
         <div>
           <img src={this.props.img}></img> <br></br>
-          {this.props.city}
+          <h3>- {this.props.city} -</h3>
         </div>
       </div>
     );
